@@ -1,0 +1,189 @@
+/* All common css Start  */
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+ol,
+ul {
+  list-style-type: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+p,
+span {
+  line-height: 0.8;
+}
+.container {
+  width: 1286px;
+  margin: 0 auto;
+}
+.rowj {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.rowf {
+  display: flex;
+  align-items: center;
+}
+/* All common css End  */
+
+/* Header_Part Css Start */
+
+.header_content {
+  padding: 30px 0;
+}
+.header_content .logo .a {
+  font-size: 34px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  color: #000000;
+}
+.header_content .menu ul li {
+  display: inline-block;
+}
+.header_content .menu ul li a {
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  color: #000000;
+  padding: 5px 20px;
+  margin: 0 15px;
+  border-radius: 20px;
+  transition: .4s;
+}
+.header_content .menu ul li a:hover {
+background: #b88e2f;
+}
+.header_content .icon i {
+  font-size: 20px;
+  color: #000000;
+  padding: 0 22px;
+}
+/* Header_Part Css End  */
+
+/* Banner part css start  */
+#banner_Part {
+  background: url(../img/Mask\ Group.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 152px 0 115px;
+  position: relative;
+  height: 725px;
+}
+#banner_Part .container{
+height: inherit;
+  position: relative;
+
+}
+
+.banner_content {
+  background: #fff3e3;
+  padding: 62px 36px 35px;
+  width: 546px;
+  border-radius: 30px;
+  position: absolute;
+  right: 0;
+  top: 62%;
+  transform: translateY(-50%);
+
+  /* float: right; */
+  /* text-align: right; */
+}
+.banner_content h6 {
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: #333333;
+  letter-spacing: 3px;
+}
+.banner_content h1 {
+  font-size: 52px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  line-height: 65px;
+  color: #b88e2f;
+  width: 546px;
+  margin: 10px 0;
+}
+.banner_content p {
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  line-height: 24px;
+  color: #333333;
+  width: 546px;
+  padding: 20px 0;
+}
+.banner_content .btn {
+  margin-top: 50px;
+}
+.banner_content .btn a {
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+
+  color: #ffffff;
+  padding: 20px 40px;
+
+  background: #b88e2f;
+  border-radius: 10px;
+  transition: .4s;
+}
+.banner_content .btn a:hover {
+background: hsla(0, 0%, 40%, 0.6);
+color: #b88e2f;
+}
+/* Banner part css end  */
+#banner_part-2 {
+  margin-top: 55px;
+}
+.banner_content-2 .banner_heading {
+  margin-bottom: 62px;
+}
+.banner_content-2 .banner_heading h2 {
+  font-size: 32px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  line-height: 50px;
+  color: #333333;
+  text-align: center;
+}
+.banner_content-2 .banner_heading p {
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  line-height: 24px;
+  color: #666666;
+  text-align: center;
+}
+.banner_content-2 .content h5 {
+  font-size: 24px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+
+  color: #333333;
+  text-align: center;
+  margin-top: 20px;
+}
+/* Banner_Part-2 Css Start */
+
+/* Banner_Part-2 Css End  */
+
+/* Header_Part Css Start */
+/* Header_Part Css End  */
+
+/* Header_Part Css Start */
+/* Header_Part Css End  */
+
+/* Header_Part Css Start */
+/* Header_Part Css End  */
